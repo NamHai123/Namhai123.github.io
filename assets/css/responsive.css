@@ -1,0 +1,77 @@
+/* mobile*/
+@media (max-width: 740px) {
+    *html{
+        scroll-behavior: smooth;
+    }
+#nav>li{
+        display: block;
+
+    }
+    #nav> li:first-child{
+        display: inline-block;
+    }
+    .mobile-menu-btn{
+        float: right;
+        padding: 0 21px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header .menu-icon{
+        color: #ccc;
+    line-height: 46px;
+    font-size: 20px;
+    }
+     .mobile-menu-btn .menu-icon:hover{
+        color: #000;
+    }
+    #header .mobile-menu-btn:hover{
+        background-color: #ccc;
+              }
+#nav{
+    display: block;
+   padding-left: 0px;
+}
+#nav .subnav{
+    position: initial;
+    background-color: #333;
+}
+#header{
+    overflow: hidden;
+}
+#nav .subnav a{
+    color: #fff;
+    padding: 5px 41px;
+}
+#content .member-item{
+    margin-top: 30px;
+    width: 100%;
+}
+#place .place-item{
+    width: 100%;
+    margin-top: 16px;
+}
+.map-section{
+    margin-top: 16px;
+}
+.contact-form{
+    width: 100%;
+    margin-top: 16px;
+}
+#contact .form-submit-btn{
+   width: 100%;
+   background-color: rgb(54, 23, 228);
+
+}
+#place .place-body{
+    width: 100%;
+    text-align: center;
+}
+.modal-container{
+    width: auto;
+}
+#slider .text-content{
+    position: initial;
+    padding-bottom: 10px;
+
+}
